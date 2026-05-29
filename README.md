@@ -5,8 +5,8 @@ Repository, to push , pull and clone different projects created by the members o
 ## Οδηγίες συμμετοχής
 
 ### Πρώτη φορά:
-git clone https://github.com/[ΟΝΟΜΑ_REPO].git
-cd [ΟΝΟΜΑ_REPO]
+git clone https://github.com/[coding-10-projects].git
+cd [coding-10-projects]
 git checkout -b member-[username_σου]
 git push origin member-[username_σου]
 
