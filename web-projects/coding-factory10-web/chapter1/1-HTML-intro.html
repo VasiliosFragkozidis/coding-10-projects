@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Βιογραφικό</title>
+</head>
+<body>
+   <h1>Βιογραφικό Φοιτητή</h1> 
+
+   <img src="../img/lennon.jpg" alt="John Lennon Photo" width="200" height="auto">
+   <h2>Προσωπικά Στοιχεία</h2>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae saepe assumenda est porro sequi magnam laborum iure, illo corrupti quam ratione neque beatae ea sit labore facilis fugiat rem eveniet.</p>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, maiores? Quibusdam omnis repudiandae esse, totam autem animi optio consequuntur, quisquam fugit ratione quae tenetur sunt, minima facilis amet debitis dignissimos.</p>
+
+   <h2>Χρήσιμοι Σύνδεσμοι</h2>
+
+   <p>Visit:</p>
+
+   <ul>
+    <li>
+        <a href="https://www.google.com" target="_blank">Google</a>
+     </li>
+    <li>
+        <a href="https://www.developer.mozilla.org" target="_blank">MDN Web Docs</a>
+    </li>
+    <li>
+        <a href="" target="_blank">Coding Factory</a>
+    </li>
+   </ul>
+
+   <h2>Lessons</h2>
+
+   <ul>
+    <li>HTML
+        <ul>
+            <li>Tables</li>
+            <li>Headings</li>
+            <li>Forms</li>
+        </ul>
+    </li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+   </ul>
+
+   <h2>Lessons</h2>
+
+   <ol>
+    <li>HTML
+        <ul>
+            <li>Tables</li>
+            <li>Forms</li>
+        </ul>
+    </li>
+    <li>CSS
+        <ol>
+            <li>selectors</li>
+            <li>layout</li>
+        </ol>
+    </li>
+    <li>JavaScript</li>
+   </ol>
+
+<h2>Βαθμολογία Μαθημάτων</h2>
+
+<table border="1">
+    <tr>
+        <td>Μάθημα</td>
+        <td>Εξάμηνο</td>
+        <td>Βαθμός</td>
+    </tr>
+    <tr>
+        <td>HTML & CSS</td>
+        <td>1</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td>2</td>
+        <td>10</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1">
+ <thead>
+    <tr>
+        <th>Μάθημα</th>
+        <th>Εξάμηνο</th>
+        <th>Βαθμός</th>
+    </tr>
+    <tr>
+        <td colspan="3">Coding Factory</td>
+    </tr>
+ </thead>
+ <tbody>
+    <tr>
+        <td>HTML & CSS</td>
+        <td>1</td>
+        <td>9</td>
+        <td rowspan="4">Lessons</td>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td>2</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>C#</td>
+        <td>3</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Java</td>
+        <td>2</td>
+        <td>7</td>
+    </tr>
+ </tbody>
+</table>
+
+<h2>Φόρμα Επικοινωνίας</h2>
+
+<form>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <p>
+        <label for="fldFullname">Ονοματεπώνυμο</label> <br>
+        <input type="text" name="fullname" id="fldFullname" placeholder="Full Name">
+        </p>
+
+        <p>
+        <label for="">Email:</label> <br>
+        <input type="email" name="email">
+        </p>
+
+        <p>
+            <label>Password:</label> <br>
+            <input type="password">
+        </p>
+        <p>
+            <label for="fldAge">Age:</label>
+            <input type="number" id="fldAge" min="20" max="40">
+        </p>
+        <p>
+            <label for="fldBirthday">Brthday:</label>
+            <input type="date" id="fldBirthday">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Other Data</legend>
+        <p>Sex
+            <br>
+            <input type="radio" name="gender" id="fldMale" value="male">
+            <label for="fldMale">Man</label>
+
+            <br>
+
+            <input type="radio" name="gender" id="fldFemale" value="female">
+            <label for="fldFemale">Woman</label>
+        </p>
+
+    <p> Coding
+        <br>
+
+        <input type="checkbox" id="fldHTML" value="html">
+        <label for="fldHTML">HTML</label>
+
+        <br>
+        <input type="checkbox" id="fldCSS" value="css">
+        <label for="fldCSS">CSS</label>
+    </p>
+
+    <p>
+        <label for="fldCity">City</label>
+        <select id="fldCity">
+            <option value="">Choose City</option>
+            <option value="athens">Athens</option>
+            <option value="london">London</option>
+        </select>
+    </p>
+
+    <p>
+        <textarea rows="5" cols="40" placeholder="Data..."></textarea>
+    </p>
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+</body>
+</html>
